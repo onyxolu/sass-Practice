@@ -11,6 +11,7 @@ $padding : 15px;
 
 $borders: 15px;
 
+// Added a function to help prevent typing map-get too often
 @function color ($color-name) {
     @return map-get($colors, $color-name)
 }
